@@ -41,7 +41,7 @@ if st.button("click to compute"):
         id[str(i+ 1)+"-"+ j] = id[j]
         del id[j]
 
-    st.write("id", local)
+    st.write("Values before Split", local)
     odd = {}
     even = {}
 
