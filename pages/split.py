@@ -27,7 +27,7 @@ if st.button("click to compute"):
 
     idlist = []
 
-    for i in range (1, 32):
+    for i in range (1, 34):
         idlist.append("L" + str(i))
 
     id = {}
