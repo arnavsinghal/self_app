@@ -4,7 +4,7 @@ import re
 splits = st.text_area("Enter Splitup")
 
 def get_name_value(input_Str):
-    name = re.findall(r'(L\d+)\s+=\s+(\d+)', input_Str)
+    name = re.findall(r'(L\d+)\s*=\s*(\d+)', input_Str)
     if len(name) > 0:
         if len(name[0]) == 2:
             return name[0][0], name[0][1]
